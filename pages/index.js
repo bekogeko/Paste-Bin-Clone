@@ -44,20 +44,22 @@ export default function Home() {
         <div className="bg-gray-800 w-4/12 ml-10 rounded-xl p-2">
           <div className="">
             <p className="text-white" style={{fontFamily:'Consolas'}}>Recent Bins</p>
-              <div className="flex flex-col overflow-y-auto p-0.5 rounded-xl h-96 scrollbar">
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-                <RecentBin recentBinProf="Denyow" binDesc="Abi python yazdim bi bak hele"></RecentBin>
-              </div>
+              <div className="flex flex-col overflow-y-auto p-0.5 rounded-xl h-96 scrollbar scroll-smooth">
+                <RecentBin recentBinProf="Momirtum" binDesc="Abi python yazdim bi bak hele"></RecentBin>
+                <RecentBin recentBinProf="BekoGeko" binDesc="PHP yazan insanlar varmis alin bi js gorun"></RecentBin>
+                <RecentBin recentBinProf="LawasHam" binDesc="Lan tailwind guzelmis"></RecentBin>
+                <RecentBin recentBinProf="Rhalig" binDesc="Neden Figma kullanmalisiniz"></RecentBin>
+                <RecentBin recentBinProf="abtonc" binDesc="Blocked"></RecentBin>
+                <RecentBin recentBinProf="Eyyamcu" binDesc="GTA gelen var mi"></RecentBin>
+                <RecentBin recentBinProf="Yopeah" binDesc="Abi Tom Holland referansi cok iyiydi"></RecentBin>
+                <RecentBin recentBinProf="Momirtum" binDesc="Abi python yazdim bi bak hele"></RecentBin>
+                <RecentBin recentBinProf="BekoGeko" binDesc="PHP yazan insanlar varmis alin bi js gorun"></RecentBin>
+                <RecentBin recentBinProf="LawasHam" binDesc="Lan tailwind guzelmis"></RecentBin>
+                <RecentBin recentBinProf="Rhalig" binDesc="Neden Figma kullanmalisiniz"></RecentBin>
+                <RecentBin recentBinProf="abtonc" binDesc="Blocked"></RecentBin>
+                <RecentBin recentBinProf="Eyyamcu" binDesc="GTA gelen var mi"></RecentBin>
+                <RecentBin recentBinProf="Yopeah" binDesc="Abi Tom Holland referansi cok iyiydi"></RecentBin>
+                </div>
           </div>
         </div>
       </main>

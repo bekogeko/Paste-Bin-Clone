@@ -8,6 +8,9 @@ function Truncate(parag){
         var truncated = parag.substring(0,20);
         return truncated + "..."
     }
+    else{
+        return parag;
+    }
 }
 
 function RecentBin({ recentBinProf, binDesc}){
@@ -16,7 +19,7 @@ function RecentBin({ recentBinProf, binDesc}){
         <Image className="rounded-full" src= {require('/public/profilePic.png')} alt="avatar" width="48" height="48"/>
          <div className="text-white ml-2" style={{fontFamily:'Consolas'}}>
             <h2>{recentBinProf}</h2>
-            <a href='#' className="text-gray-600 hover:underline">{Truncate(binDesc)}</a>
+            <a href='#' title={binDesc} className="text-gray-600 hover:underline">{Truncate(binDesc)}</a>
          </div>
      </div>   
     )
