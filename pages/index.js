@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import RecentBin from './components/RecentBin'
+import RecentBin from '../components/RecentBin'
 
 export default function Home() {
   return (
